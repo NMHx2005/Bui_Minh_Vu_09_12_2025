@@ -5,17 +5,10 @@ import { Footer } from './components/Footer'
 import { MainLayout } from './layouts/MainLayout'
 
 function App() {
-  const scrollToCourses = () => {
-    const el = document.getElementById('courses')
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
-
   return (
     <MainLayout>
-      <Header onCtaClick={scrollToCourses} />
-      <Hero onPrimary={scrollToCourses} />
+      <Header />
+      <Hero />
       <div id="courses">
         <CourseList />
       </div>
