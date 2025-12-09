@@ -1,19 +1,18 @@
-import { Header } from './components/Header'
-import { Hero } from './components/Hero'
-import { CourseList } from './components/CourseList'
-import { Footer } from './components/Footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { MainLayout } from './layouts/MainLayout'
+import { HomePage } from './pages/HomePage'
+import { ArticlesPage } from './pages/ArticlesPage'
 
 function App() {
   return (
-    <MainLayout>
-      <Header />
-      <Hero />
-      <div id="courses">
-        <CourseList />
-      </div>
-      <Footer />
-    </MainLayout>
+    <BrowserRouter>
+      <MainLayout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/articles" element={<ArticlesPage />} />
+        </Routes>
+      </MainLayout>
+    </BrowserRouter>
   )
 }
 

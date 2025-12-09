@@ -27,7 +27,7 @@ export function CourseList() {
             </div>
 
             <div className="mt-12 flex justify-center">
-                <div className="course-pagination w-full max-w-4xl">
+                <div className="course-pagination w-full">
                     <Pagination
                         current={page}
                         pageSize={pageSize}
@@ -36,10 +36,18 @@ export function CourseList() {
                         showSizeChanger={false}
                         itemRender={(_, type, originalElement) => {
                             if (type === 'prev') {
-                                return <span className="flex items-center gap-2 text-slate-500">← Previous</span>
+                                return (
+                                    <span className="flex items-center gap-2 text-slate-500">
+                                        <span>←</span> Previous
+                                    </span>
+                                )
                             }
                             if (type === 'next') {
-                                return <span className="flex items-center gap-2 text-slate-500">Next →</span>
+                                return (
+                                    <span className="flex justify-end items-center gap-2 text-slate-500">
+                                        Next <span>→</span>
+                                    </span>
+                                )
                             }
                             if (type === 'jump-prev' || type === 'jump-next') {
                                 return <span className="text-slate-500">…</span>

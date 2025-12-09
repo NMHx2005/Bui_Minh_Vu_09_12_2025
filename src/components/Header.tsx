@@ -6,18 +6,19 @@ import {
     UserOutlined,
 } from '@ant-design/icons'
 import { Avatar, Badge } from 'antd'
+import { Link, useLocation } from 'react-router-dom'
 
-type HeaderProps = {
-    // onCtaClick removed as it is no longer used
-}
+export function Header() {
+    const location = useLocation()
+    const isHome = location.pathname === '/'
+    const isArticles = location.pathname === '/articles'
 
-export function Header({ }: HeaderProps) {
     return (
         <header className="flex items-center justify-between px-[120px] py-5">
             {/* Left Side: Logo + Divider + Nav */}
             <div className="flex items-center gap-8">
                 {/* Logo */}
-                <div className="flex flex-col items-center leading-none">
+                <Link to="/" className="flex flex-col items-center leading-none">
                     <div className="mb-1 flex items-center justify-center text-orange-500">
                         {/* Simple CSS Logo Placeholder */}
                         <div className="relative flex h-8 w-8 items-center justify-center">
@@ -27,27 +28,33 @@ export function Header({ }: HeaderProps) {
                     </div>
                     <span className="text-sm font-bold text-orange-500">Mankai</span>
                     <span className="text-[10px] text-orange-400">Academy</span>
-                </div>
+                </Link>
 
                 {/* Vertical Divider */}
                 <div className="h-8 w-[1px] bg-slate-200" />
 
                 {/* Navigation */}
                 <nav className="hidden items-center gap-8 md:flex">
-                    <a
-                        href="#"
-                        className="flex items-center gap-2 text-sm font-semibold text-orange-500 transition hover:text-orange-600"
+                    <Link
+                        to="/"
+                        className={`flex items-center gap-2 text-sm transition ${isHome
+                            ? 'font-semibold text-orange-500 hover:text-orange-600'
+                            : 'font-medium text-slate-600 hover:text-slate-900'
+                            }`}
                     >
                         <HomeFilled />
                         <span>Trang chủ</span>
-                    </a>
-                    <a
-                        href="#"
-                        className="flex items-center gap-2 text-sm font-medium text-slate-600 transition hover:text-slate-900"
+                    </Link>
+                    <Link
+                        to="/articles"
+                        className={`flex items-center gap-2 text-sm transition ${isArticles
+                            ? 'font-semibold text-orange-500 hover:text-orange-600'
+                            : 'font-medium text-slate-600 hover:text-slate-900'
+                            }`}
                     >
                         <BookFilled />
                         <span>Bài viết</span>
-                    </a>
+                    </Link>
                 </nav>
             </div>
 
