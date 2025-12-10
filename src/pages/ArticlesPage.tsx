@@ -2,7 +2,10 @@ import { DownOutlined } from '@ant-design/icons'
 import { Pagination, Select } from 'antd'
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { articles } from '../data/articles'
+import db from '../data/db.json'
+import type { Article } from '../types/article'
+
+const articles = db.articles as Article[]
 import { ArticleCard } from '../components/ArticleCard'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'

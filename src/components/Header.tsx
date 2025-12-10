@@ -60,7 +60,9 @@ export function Header() {
 
             {/* Right Side: Utilities */}
             <div className="flex items-center gap-6">
-                <SearchOutlined className="cursor-pointer text-xl text-slate-500 transition hover:text-slate-900" />
+                <Link to="/search">
+                    <SearchOutlined className="cursor-pointer text-xl text-slate-500 transition hover:text-slate-900" />
+                </Link>
                 <Badge dot offset={[-2, 2]} className="cursor-pointer">
                     <BellFilled className="text-xl text-slate-500 transition hover:text-slate-900" />
                 </Badge>

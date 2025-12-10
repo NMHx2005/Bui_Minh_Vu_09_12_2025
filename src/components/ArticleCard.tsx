@@ -1,4 +1,5 @@
 import { BookOutlined, ClockCircleOutlined } from '@ant-design/icons'
+import { Link } from 'react-router-dom'
 import type { Article } from '../types/article'
 
 type Props = {
@@ -7,7 +8,8 @@ type Props = {
 
 export function ArticleCard({ article }: Props) {
     return (
-        <div className="group flex h-full flex-col overflow-hidden rounded-[28px] bg-white shadow-[0_16px_60px_rgba(0,0,0,0.08)] transition hover:-translate-y-1 hover:shadow-[0_20px_70px_rgba(0,0,0,0.12)]">
+        <Link to={`/articles/${article.id}`} className="block h-full">
+            <div className="group flex h-full flex-col overflow-hidden rounded-[28px] bg-white shadow-[0_16px_60px_rgba(0,0,0,0.08)] transition hover:-translate-y-1 hover:shadow-[0_20px_70px_rgba(0,0,0,0.12)]">
             <div className="px-4 pt-4">
                 <div className="overflow-hidden rounded-[24px]">
                     <img
@@ -40,6 +42,7 @@ export function ArticleCard({ article }: Props) {
                 </div>
             </div>
         </div>
+        </Link>
     )
 }
 

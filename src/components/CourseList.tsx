@@ -1,7 +1,10 @@
 import { Pagination } from 'antd'
 import { useMemo, useState } from 'react'
-import { courses } from '../data/courses'
+import db from '../data/db.json'
+import type { Course } from '../types/course'
 import { CourseCard } from './CourseCard'
+
+const courses = db.courses as Course[]
 
 export function CourseList() {
     const [page, setPage] = useState(1)

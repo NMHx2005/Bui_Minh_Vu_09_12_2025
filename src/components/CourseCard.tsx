@@ -1,5 +1,6 @@
 import { BookOutlined, ClockCircleOutlined, RightOutlined, UserOutlined } from '@ant-design/icons'
 import { Button } from 'antd'
+import { Link } from 'react-router-dom'
 import type { Course } from '../types/course'
 
 type Props = {
@@ -44,14 +45,16 @@ export function CourseCard({ course }: Props) {
                 <div className="text-[28px] font-semibold leading-tight text-[#0f0f0f]">{course.title}</div>
 
                 <div className="mt-auto rounded-2xl bg-[#f8dedd] px-6 py-4 text-center">
-                    <Button
-                        type="text"
-                        className="h-auto! w-full p-0! text-lg font-semibold uppercase tracking-wide text-[#d45454]"
-                        icon={<RightOutlined className="text-sm" />}
-                        iconPosition="end"
-                    >
-                        Học ngay
-                    </Button>
+                    <Link to={`/courses/${course.id}`}>
+                        <Button
+                            type="text"
+                            className="h-auto! w-full p-0! text-lg font-semibold uppercase tracking-wide text-[#d45454]"
+                            icon={<RightOutlined className="text-sm" />}
+                            iconPosition="end"
+                        >
+                            Học ngay
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </div>

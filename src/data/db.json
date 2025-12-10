@@ -1,0 +1,1206 @@
+{
+  "articles": [
+    {
+      "id": "a1",
+      "title": "Authentication & Authorization trong ReactJS",
+      "category": "Front-End",
+      "excerpt": "Chào bạn! Nếu bạn đã là học viên khóa Pro của Rikkai Academy, chắc hẳn bạn đã biết tới Dev Mode - giúp thực hành và học tập hiệu quả hơn. Trong bài viết này, chúng ta sẽ tìm hiểu về Authentication & Authorization trong ReactJS.",
+      "image": "./card1.png",
+      "publishedAt": "6 tháng trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a2",
+      "title": "State Management với Redux Toolkit",
+      "category": "Front-End",
+      "excerpt": "Redux Toolkit là cách tiếp cận hiện đại để quản lý state trong ứng dụng React. Bài viết này sẽ hướng dẫn bạn cách sử dụng Redux Toolkit một cách hiệu quả.",
+      "image": "./card1.png",
+      "publishedAt": "5 tháng trước",
+      "readTime": "12-18 phút đọc"
+    },
+    {
+      "id": "a3",
+      "title": "TypeScript Best Practices",
+      "category": "Front-End",
+      "excerpt": "TypeScript giúp code JavaScript của bạn an toàn và dễ bảo trì hơn. Hãy cùng khám phá các best practices khi làm việc với TypeScript trong dự án React.",
+      "image": "./card1.png",
+      "publishedAt": "4 tháng trước",
+      "readTime": "8-12 phút đọc"
+    },
+    {
+      "id": "a4",
+      "title": "Performance Optimization trong React",
+      "category": "Front-End",
+      "excerpt": "Tối ưu hóa hiệu suất là một phần quan trọng trong phát triển ứng dụng React. Bài viết này sẽ giới thiệu các kỹ thuật và công cụ để cải thiện performance.",
+      "image": "./card1.png",
+      "publishedAt": "3 tháng trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a5",
+      "title": "RESTful API Design Principles",
+      "category": "Back-End",
+      "excerpt": "Thiết kế API RESTful đúng cách là nền tảng cho một hệ thống backend mạnh mẽ. Hãy cùng tìm hiểu các nguyên tắc và best practices khi thiết kế REST API.",
+      "image": "./card1.png",
+      "publishedAt": "2 tháng trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a6",
+      "title": "Database Indexing Strategies",
+      "category": "Back-End",
+      "excerpt": "Indexing là một kỹ thuật quan trọng để cải thiện hiệu suất truy vấn database. Bài viết này sẽ giải thích các chiến lược indexing phổ biến và khi nào nên sử dụng chúng.",
+      "image": "./card1.png",
+      "publishedAt": "1 tháng trước",
+      "readTime": "12-16 phút đọc"
+    },
+    {
+      "id": "a7",
+      "title": "Microservices Architecture",
+      "category": "Back-End",
+      "excerpt": "Kiến trúc microservices đang trở thành xu hướng trong phát triển ứng dụng lớn. Hãy cùng tìm hiểu về các khái niệm, ưu nhược điểm và cách triển khai.",
+      "image": "./card1.png",
+      "publishedAt": "3 tuần trước",
+      "readTime": "18-25 phút đọc"
+    },
+    {
+      "id": "a8",
+      "title": "Docker và Containerization",
+      "category": "DevOps",
+      "excerpt": "Docker đã cách mạng hóa cách chúng ta deploy và quản lý ứng dụng. Bài viết này sẽ hướng dẫn bạn từ cơ bản đến nâng cao về Docker và containerization.",
+      "image": "./card1.png",
+      "publishedAt": "2 tuần trước",
+      "readTime": "14-20 phút đọc"
+    },
+    {
+      "id": "a9",
+      "title": "CI/CD với GitHub Actions",
+      "category": "DevOps",
+      "excerpt": "GitHub Actions giúp tự động hóa quy trình CI/CD một cách dễ dàng. Hãy cùng học cách thiết lập pipeline CI/CD cho dự án của bạn với GitHub Actions.",
+      "image": "./card1.png",
+      "publishedAt": "1 tuần trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a10",
+      "title": "Bài viết 10: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "1 tuần trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a11",
+      "title": "Bài viết 11: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "1 tuần trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a12",
+      "title": "Bài viết 12: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "1 tuần trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a13",
+      "title": "Bài viết 13: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "1 tuần trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a14",
+      "title": "Bài viết 14: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "2 tuần trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a15",
+      "title": "Bài viết 15: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "2 tuần trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a16",
+      "title": "Bài viết 16: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "2 tuần trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a17",
+      "title": "Bài viết 17: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "2 tuần trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a18",
+      "title": "Bài viết 18: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "3 tuần trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a19",
+      "title": "Bài viết 19: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "3 tuần trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a20",
+      "title": "Bài viết 20: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "3 tuần trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a21",
+      "title": "Bài viết 21: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "3 tuần trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a22",
+      "title": "Bài viết 22: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "4 tuần trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a23",
+      "title": "Bài viết 23: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "4 tuần trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a24",
+      "title": "Bài viết 24: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "4 tuần trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a25",
+      "title": "Bài viết 25: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "4 tuần trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a26",
+      "title": "Bài viết 26: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "5 tuần trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a27",
+      "title": "Bài viết 27: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "5 tuần trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a28",
+      "title": "Bài viết 28: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "5 tuần trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a29",
+      "title": "Bài viết 29: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "5 tuần trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a30",
+      "title": "Bài viết 30: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "6 tháng trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a31",
+      "title": "Bài viết 31: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "6 tháng trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a32",
+      "title": "Bài viết 32: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "6 tháng trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a33",
+      "title": "Bài viết 33: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "6 tháng trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a34",
+      "title": "Bài viết 34: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "7 tháng trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a35",
+      "title": "Bài viết 35: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "7 tháng trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a36",
+      "title": "Bài viết 36: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "7 tháng trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a37",
+      "title": "Bài viết 37: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "7 tháng trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a38",
+      "title": "Bài viết 38: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "8 tháng trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a39",
+      "title": "Bài viết 39: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "8 tháng trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a40",
+      "title": "Bài viết 40: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "8 tháng trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a41",
+      "title": "Bài viết 41: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "8 tháng trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a42",
+      "title": "Bài viết 42: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "9 tháng trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a43",
+      "title": "Bài viết 43: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "9 tháng trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a44",
+      "title": "Bài viết 44: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "9 tháng trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a45",
+      "title": "Bài viết 45: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "9 tháng trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a46",
+      "title": "Bài viết 46: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "10 tháng trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a47",
+      "title": "Bài viết 47: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "10 tháng trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a48",
+      "title": "Bài viết 48: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "10 tháng trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a49",
+      "title": "Bài viết 49: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "10 tháng trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a50",
+      "title": "Bài viết 50: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "11 tuần trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a51",
+      "title": "Bài viết 51: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "11 tuần trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a52",
+      "title": "Bài viết 52: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "11 tuần trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a53",
+      "title": "Bài viết 53: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "11 tuần trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a54",
+      "title": "Bài viết 54: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "12 tuần trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a55",
+      "title": "Bài viết 55: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "12 tuần trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a56",
+      "title": "Bài viết 56: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "12 tuần trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a57",
+      "title": "Bài viết 57: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "12 tuần trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a58",
+      "title": "Bài viết 58: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "13 tuần trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a59",
+      "title": "Bài viết 59: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "13 tuần trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a60",
+      "title": "Bài viết 60: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "13 tuần trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a61",
+      "title": "Bài viết 61: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "13 tuần trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a62",
+      "title": "Bài viết 62: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "14 tuần trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a63",
+      "title": "Bài viết 63: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "14 tuần trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a64",
+      "title": "Bài viết 64: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "14 tuần trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a65",
+      "title": "Bài viết 65: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "14 tuần trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a66",
+      "title": "Bài viết 66: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "15 tuần trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a67",
+      "title": "Bài viết 67: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "15 tuần trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a68",
+      "title": "Bài viết 68: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "15 tuần trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a69",
+      "title": "Bài viết 69: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "15 tuần trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a70",
+      "title": "Bài viết 70: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "16 tháng trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a71",
+      "title": "Bài viết 71: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "16 tháng trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a72",
+      "title": "Bài viết 72: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "16 tháng trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a73",
+      "title": "Bài viết 73: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "16 tháng trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a74",
+      "title": "Bài viết 74: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "17 tháng trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a75",
+      "title": "Bài viết 75: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "17 tháng trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a76",
+      "title": "Bài viết 76: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "17 tháng trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a77",
+      "title": "Bài viết 77: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "17 tháng trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a78",
+      "title": "Bài viết 78: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "18 tháng trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a79",
+      "title": "Bài viết 79: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "18 tháng trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a80",
+      "title": "Bài viết 80: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "18 tháng trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a81",
+      "title": "Bài viết 81: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "18 tháng trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a82",
+      "title": "Bài viết 82: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "19 tháng trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a83",
+      "title": "Bài viết 83: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "19 tháng trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a84",
+      "title": "Bài viết 84: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "19 tháng trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a85",
+      "title": "Bài viết 85: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "19 tháng trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a86",
+      "title": "Bài viết 86: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "20 tháng trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a87",
+      "title": "Bài viết 87: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "20 tháng trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a88",
+      "title": "Bài viết 88: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "20 tháng trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a89",
+      "title": "Bài viết 89: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "20 tháng trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a90",
+      "title": "Bài viết 90: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "21 tuần trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a91",
+      "title": "Bài viết 91: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "21 tuần trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a92",
+      "title": "Bài viết 92: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "21 tuần trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a93",
+      "title": "Bài viết 93: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "21 tuần trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a94",
+      "title": "Bài viết 94: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "22 tuần trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a95",
+      "title": "Bài viết 95: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "22 tuần trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a96",
+      "title": "Bài viết 96: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "22 tuần trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a97",
+      "title": "Bài viết 97: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "22 tuần trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a98",
+      "title": "Bài viết 98: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "23 tuần trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a99",
+      "title": "Bài viết 99: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "23 tuần trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a100",
+      "title": "Bài viết 100: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "23 tuần trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a101",
+      "title": "Bài viết 101: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "23 tuần trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a102",
+      "title": "Bài viết 102: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "24 tuần trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a103",
+      "title": "Bài viết 103: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "24 tuần trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a104",
+      "title": "Bài viết 104: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "24 tuần trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a105",
+      "title": "Bài viết 105: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "24 tuần trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a106",
+      "title": "Bài viết 106: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "25 tuần trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a107",
+      "title": "Bài viết 107: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "25 tuần trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a108",
+      "title": "Bài viết 108: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "25 tuần trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a109",
+      "title": "Bài viết 109: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "25 tuần trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a110",
+      "title": "Bài viết 110: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "26 tháng trước",
+      "readTime": "10-15 phút đọc"
+    },
+    {
+      "id": "a111",
+      "title": "Bài viết 111: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "26 tháng trước",
+      "readTime": "11-16 phút đọc"
+    },
+    {
+      "id": "a112",
+      "title": "Bài viết 112: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "26 tháng trước",
+      "readTime": "12-17 phút đọc"
+    },
+    {
+      "id": "a113",
+      "title": "Bài viết 113: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "26 tháng trước",
+      "readTime": "13-18 phút đọc"
+    },
+    {
+      "id": "a114",
+      "title": "Bài viết 114: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "27 tháng trước",
+      "readTime": "14-19 phút đọc"
+    },
+    {
+      "id": "a115",
+      "title": "Bài viết 115: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "27 tháng trước",
+      "readTime": "15-20 phút đọc"
+    },
+    {
+      "id": "a116",
+      "title": "Bài viết 116: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "27 tháng trước",
+      "readTime": "16-21 phút đọc"
+    },
+    {
+      "id": "a117",
+      "title": "Bài viết 117: Mobile",
+      "category": "Mobile",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "27 tháng trước",
+      "readTime": "17-22 phút đọc"
+    },
+    {
+      "id": "a118",
+      "title": "Bài viết 118: Front-End",
+      "category": "Front-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "28 tháng trước",
+      "readTime": "18-23 phút đọc"
+    },
+    {
+      "id": "a119",
+      "title": "Bài viết 119: Back-End",
+      "category": "Back-End",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "28 tháng trước",
+      "readTime": "19-24 phút đọc"
+    },
+    {
+      "id": "a120",
+      "title": "Bài viết 120: DevOps",
+      "category": "DevOps",
+      "excerpt": "Đây là một bài viết mẫu về các chủ đề công nghệ thông tin. Nội dung bài viết sẽ được cập nhật trong tương lai.",
+      "image": "./card1.png",
+      "publishedAt": "28 tháng trước",
+      "readTime": "10-15 phút đọc"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "title": "N1 Chill Class",
+      "category": "N1",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Giang Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c2",
+      "title": "N1 Chill Class",
+      "category": "N1",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Giang Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c3",
+      "title": "N1 Chill Class",
+      "category": "N1",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Giang Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c4",
+      "title": "N2 Chill Class",
+      "category": "N2",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Quỳnh Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c5",
+      "title": "N2 Chill Class",
+      "category": "N2",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Quỳnh Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c6",
+      "title": "N2 Chill Class",
+      "category": "N2",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Quỳnh Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c1",
+      "title": "N1 Chill Class",
+      "category": "N1",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Giang Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c2",
+      "title": "N1 Chill Class",
+      "category": "N1",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Giang Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c3",
+      "title": "N1 Chill Class",
+      "category": "N1",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Giang Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c4",
+      "title": "N2 Chill Class",
+      "category": "N2",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Quỳnh Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c5",
+      "title": "N2 Chill Class",
+      "category": "N2",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Quỳnh Sensei",
+      "heroImage": "./card1.png"
+    },
+    {
+      "id": "c6",
+      "title": "N2 Chill Class",
+      "category": "N2",
+      "level": "Beginner",
+      "durationMinutes": 360,
+      "chapters": 32,
+      "teacher": "Quỳnh Sensei",
+      "heroImage": "./card1.png"
+    }
+  ]
+}

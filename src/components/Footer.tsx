@@ -9,10 +9,10 @@ import {
 export function Footer() {
     return (
         <footer className="mt-16 bg-[radial-gradient(140%_120%_at_50%_20%,#f08c5c,#d64b2f_45%,#c43b2a_70%)] text-white">
-            <div className="mx-auto flex  flex-col gap-10 px-6 py-14 text-center">
+            <div className="mx-auto flex  flex-col gap-10 px-[120px] py-14 text-center">
                 <div className="flex flex-col items-center gap-3">
                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/95 text-2xl font-bold text-orange-500 shadow-lg">
-                        <img src="./logooo.png" alt="logo" className="w-full h-full object-cover" />
+                        <img src="/logooo.png" alt="logo" className="w-full h-full object-cover" />
                     </div>
                     <p className="text-lg font-semibold uppercase">
                         Mankai Academy - Học viện đào tạo phát triển tiếng Nhật thực chiến
@@ -60,7 +60,7 @@ export function Footer() {
                 </div>
 
                 <div className="h-px w-full bg-white/30" />
-                <p className="text-sm text-white/90">
+                <p className="text-sm text-white/90 text-start">
                     © 2024 By Rikkei Academy - Rikkei Education - All rights reserved.
                 </p>
             </div>
