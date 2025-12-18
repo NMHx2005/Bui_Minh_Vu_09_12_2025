@@ -103,14 +103,14 @@ export function SearchPage() {
         <div className="min-h-screen bg-white">
             <Header />
             {/* Banner */}
-            <section className="relative overflow-hidden bg-[linear-gradient(105deg,#AD502F_0%,#F37142_32%,#F37142_60%,#AD502F_100%)] px-[120px] py-16">
+            <section className="relative overflow-hidden bg-[linear-gradient(105deg,#AD502F_0%,#F37142_32%,#F37142_60%,#AD502F_100%)] px-4 md:px-6 lg:px-10 xl:px-[120px] py-8 md:py-12 lg:py-16">
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
                     style={{ backgroundImage: "url('/back ground.png')" }}
                 />
                 <div className="relative z-10">
                     {/* Breadcrumb */}
-                    <div className="mb-8 flex items-center gap-2 text-sm text-white/80">
+                    <div className="mb-4 md:mb-8 flex items-center gap-2 text-xs md:text-sm text-white/80">
                         <Link to="/" className="hover:text-white transition">
                             Trang chủ
                         </Link>
@@ -119,15 +119,15 @@ export function SearchPage() {
                     </div>
 
                     {/* Title */}
-                    <h1 className="text-[48px] font-bold text-white">Tìm kiếm</h1>
+                    <h1 className="text-3xl md:text-4xl lg:text-[48px] font-bold text-white">Tìm kiếm</h1>
                 </div>
             </section>
 
             {/* Main Content */}
-            <section className="px-[120px] py-12">
+            <section className="px-4 md:px-6 lg:px-10 xl:px-[120px] py-6 md:py-8 lg:py-12">
                 {/* Search Bar */}
-                <div className="mb-8">
-                    <div className="flex gap-4">
+                <div className="mb-6 md:mb-8">
+                    <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
                         <Input
                             size="large"
                             placeholder="Tìm kiếm khóa học, bài viết..."
@@ -141,7 +141,7 @@ export function SearchPage() {
                             type="primary"
                             size="large"
                             onClick={handleSearch}
-                            className="bg-[#DD673C] hover:bg-[#d45454]! px-8"
+                            className="bg-[#DD673C] hover:bg-[#d45454]! px-6 md:px-8 w-full sm:w-auto"
                         >
                             Cập nhật
                         </Button>
@@ -150,20 +150,20 @@ export function SearchPage() {
 
                 {/* Results Header */}
                 {searchQuery && (
-                    <div className="mb-8 flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                            <span className="text-lg font-semibold text-slate-900">
+                    <div className="mb-6 md:mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                        <div className="flex items-center gap-2 md:gap-3">
+                            <span className="text-base md:text-lg font-semibold text-slate-900">
                                 Có {searchResults.length} kết quả cho từ khóa "{searchQuery}"
                             </span>
                         </div>
 
-                        <div className="flex items-center gap-3">
-                            <span className="text-sm font-medium text-slate-600">Sắp xếp:</span>
+                        <div className="flex items-center gap-2 md:gap-3 w-full sm:w-auto">
+                            <span className="text-xs md:text-sm font-medium text-slate-600">Sắp xếp:</span>
                             <Select
                                 value={sortBy}
                                 onChange={setSortBy}
                                 suffixIcon={<DownOutlined />}
-                                className="min-w-[150px]"
+                                className="min-w-[120px] md:min-w-[150px] flex-1 sm:flex-none"
                                 options={[
                                     { label: 'Mới nhất', value: 'Mới nhất' },
                                     { label: 'Cũ nhất', value: 'Cũ nhất' },

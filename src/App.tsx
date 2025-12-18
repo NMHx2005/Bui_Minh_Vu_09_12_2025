@@ -4,6 +4,8 @@ import { HomePage } from './pages/HomePage'
 import { ArticlesPage } from './pages/ArticlesPage'
 import { ArticleDetailPage } from './pages/ArticleDetailPage'
 import { CourseDetailPage } from './pages/CourseDetailPage'
+import { ExercisePage } from './pages/ExercisePage'
+import { QuizPage } from './pages/QuizPage'
 import { SearchPage } from './pages/SearchPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 
@@ -16,6 +18,8 @@ function App() {
           <Route path="/articles" element={<ArticlesPage />} />
           <Route path="/articles/:id" element={<ArticleDetailPage />} />
           <Route path="/courses/:id" element={<CourseDetailPage />} />
+          <Route path="/exercises/:id" element={<ExercisePage />} />
+          <Route path="/quizzes/:id" element={<QuizPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
